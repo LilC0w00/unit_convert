@@ -11,8 +11,8 @@ section {
     display: flex;
     flex-direction: column;
     text-align: center;
-    height: 728px;
-    width: 450px;
+    height: 729px;
+    width: 550px;
 }
 
 #title-convert {
@@ -80,20 +80,23 @@ input::-webkit-inner-spin-button {
 }
 
 .box-result {
-    width: 370px;
-    height: 50px;
+    width: 500px;
+    height: 100px;
     background-color: #FFFFFF;
     border-top-left-radius: 5px;
-    padding: 12px 20px;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .box-result h3 {
     margin: 0;
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: #5A537B;
 }
 
 .box-result p {
-    font-size: 0.6rem;
+    font-size: 0.9rem;
     color: #353535;
 }
