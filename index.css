@@ -38,11 +38,23 @@ section {
     margin-bottom: 25px;
 }
 
-#nb-enter h1{
+#nb-enter input{
     font-size: 3rem;
     margin: 0;
     padding-top: 10px;
     padding-bottom: 10px;
+    width: 100px;
+    height: 80px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 #convert-btn {
@@ -82,6 +94,6 @@ section {
 }
 
 .box-result p {
-    font-size: 0.5rem;
+    font-size: 0.6rem;
     color: #353535;
 }
