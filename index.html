@@ -1,12 +1,20 @@
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scare=1.0">
         <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+        <title>Unit Convert</title>
     </head>
     <body>
         <section>
-            <div>
+            <div id="title-convert">
                 <h2>Metric/Imperial Unit Conversion</h2>
-                <div id="nb-enter"></div>
+                <div id="nb-enter">
+                    <h1></h1>
+                </div>
                 <button id="convert-btn">Convert</button>
             </div>
             <div id="result">
@@ -16,7 +24,7 @@
                 </div>
                 <div class="box-result">
                     <h3>Volume (Liters/Gallons)</h3>
-                    <p id="result-volume">20 meters = 65.616 feet | 20 feet = 6.096 meters</p>
+                    <p id="result-volume"></p>
                 </div>
                 <div class="box-result">
                     <h3>Mass (Kilograms/Pounds)</h3>
